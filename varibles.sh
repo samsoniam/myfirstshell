@@ -6,5 +6,5 @@ P1=$1
 P2=$2
 echo "$P1 : Hi $P2"
 echo "$P2 : I am fine $P1"
-date=$(date +%F)
+date=$(date +%A)
 echo "today date is $date"
