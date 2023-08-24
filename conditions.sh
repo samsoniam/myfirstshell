@@ -7,7 +7,7 @@
 # echo "user is root user"
 # fi
 myinput=$1
-if[myinput -gt 10]
+if[$myinput -gt 10]
 then
 echo "$myinput is greater than 10"
 else
