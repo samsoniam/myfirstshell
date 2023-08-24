@@ -1,5 +1,5 @@
 #!/bin/bash
-userid =$(id -u)
+userid=$(id -u)
 if[$userid !=0]
 then
 echo "user is not root user"
