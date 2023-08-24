@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "enter value one"
-read  VAL1
+read -i  VAL1
 echo "enter value two"
 read  VAL2
 echo "math operations"
