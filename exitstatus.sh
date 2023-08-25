@@ -6,7 +6,7 @@ then
 echo "user is not root user"
 exit 1
 fi
-yum install mysqll -y
+yum install mysql -y
 if [ $? -eq 0]
 then
   echo "install success"
