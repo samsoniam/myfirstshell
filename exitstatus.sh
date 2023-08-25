@@ -7,9 +7,9 @@ echo "user is not root user"
 exit 1
 fi
 yum install mysql -y
-if [ $? -eq 0]
+if [ $? -ne 0]
 then
-  echo "install success"
+  echo "install fail"
 else
-  echo "install failed"
+  echo "install success"
   fi
