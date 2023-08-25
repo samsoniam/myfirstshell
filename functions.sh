@@ -25,4 +25,4 @@ VALIDATE $?
 #install postfix
 yum install postfix -y
 VALIDATE $?
-
+fi
