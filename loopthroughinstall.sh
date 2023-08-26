@@ -25,11 +25,11 @@ then
   echo -e "$R error: user is not root user $N"
   exit 1
 fi
-//loop 
+ 
 for a in $@
 do
 yum list installed $a &>>$SCRIPT_LOG_FILE
-if [ $? -ne 0]
+if [ $? -ne 0 ]
 then
 yum install $? -y &>>$SCRIPT_LOG_FILE
 VALIDATE $? "$a"
