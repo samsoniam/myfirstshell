@@ -2,5 +2,6 @@
 
 for a in 10
 do
-echo "item is $a"
+a=a-1;
+echo "item is $a'
 done
