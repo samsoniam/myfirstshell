@@ -1,7 +1,6 @@
 #!/bin/bash
 
-for a in 10
+for a in {1..100}
 do
-a=$((a-1));
 echo "item is $a"
 done
