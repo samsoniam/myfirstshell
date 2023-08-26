@@ -1,5 +1,5 @@
 #!/bin/bash
-UID=$(id -u)
+MYID=$(id -u)
 MDATA=$(date +%F)
 LOG_FILE_DIR=/home/centos/log-script
 SCRIPT_NAME=$0
@@ -20,7 +20,7 @@ VALIDATE()
 }
 
 #root user or not check
-if [ $UID -ne 0 ]
+if [ $MYID -ne 0 ]
 then
   echo -e "$R error: user is not root user $N"
   exit 1
