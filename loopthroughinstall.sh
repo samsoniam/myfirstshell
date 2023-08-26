@@ -4,10 +4,10 @@ MDATA=$(date +%F)
 LOG_FILE_DIR=/home/centos/log-script
 SCRIPT_NAME=$0
 SCRIPT_LOG_FILE=$LOG_FILE_DIR/$0-$MDATA.log
-R="/e[31m"
-G="/e[32m"
-N="/e[0m"
-Y="/e[33m"
+R="\e[31m"
+G="\e[32m"
+N="\e[0m"
+Y="\e[33m"
 
 VALIDATE()
 {
